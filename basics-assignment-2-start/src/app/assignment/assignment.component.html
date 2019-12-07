@@ -1,0 +1,5 @@
+<hr>
+<label for="">Username</label>
+<input type="text" [(ngModel)]="username">
+<p>{{ username }}</p>
+<button class="btn btn-primary" [disabled]="!username" (click)="onReset()">Click to make string empty</button>
